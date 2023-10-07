@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+backdrop-filter: blur(30px);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header a{
+    color: var(--Blue-Dark, #002248);
+font-size: 16px;
+font-weight: 400;
+line-height: 18px; 
+text-decoration: none;
+}
+.header button{
+    width: 120px;
+height: 50px;
+flex-shrink: 0;
+    border-radius: 10px;
+background: #3685FB;
+color: white;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+text-decoration: none;
+}
+.road{
+position: relative;
+    border-radius: 45%;
+    margin-top: 50px;
+}
+.pool{
+    border: 10px solid white;
+    position: absolute;
+    border-radius: 45%;
+    margin-top: 200px;
+    left: 400px;
+}
+/* TRIP */
+.trip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.trip-title1 a{
+    color: var(--Blue-Light, #00B3A0);
+text-decoration: none;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px; 
+}
+.trip-title1 h1{
+    width: 523px;
+height: 152px;
+flex-shrink: 0; 
+    color: var(--Blue-Dark, #002248);
+font-size: 60px;
+font-weight: 550;
+line-height: 72px; 
+text-transform: capitalize;
+margin: 30px 0;
+}
+.trip-title1 p{
+    color: var(--Paragraph-Color-H3, #697687);
+    width: 513px;
+font-family: Airbnb Cereal App;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+margin: 30px 0;
+}
+.trip-title1 button{
+    border-radius: 10px;
+background: #3685FB;
+width: 170px;
+height: 60px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Airbnb Cereal App;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px; 
+}
+
+
+
+
+/* TRIP */
+/* BLOCK */
+.wrapp{
+    display: flex;
+background-repeat: 12px;    
+
+.wrap{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    border-start-start-radius: 20px;
+    border-start-start-radius: 20px;
+    padding: 20px 50px;
+}
+    h3{
+        color: white;
+    }
+.re{
+    height: 100%;
+    width: 100%;
+    background: #3685FB;
+    border-start-end-radius: 20px;
+    border-end-end-radius: 20px;
+    color: white;
+
+}
+}
+.travel-nav {
+    align-items: center;
+text-align: center;
+}
+.travel-nav a{
+    color: var(--Blue-Light, #00B3A0);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px; 
+text-decoration: none;
+
+
+}
+.travel-nav h1{
+    color: var(--Blue-Dark, #002248);
+align-items: center;
+font-size: 42px;
+font-weight: 500;
+line-height: 52px; 
+text-transform: capitalize;
+margin: 30px 0;
+}
+.travel-nav p{
+    color: var(--Paragraph-Color-H3, #697687);
+text-align: center;
+align-items: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; 
+width: 568px;
+}
+.location-left a{
+    color: var(--Blue-Light, #00B3A0);
+font-size: 16px;
+font-weight: 500;
+line-height: 18px; 
+text-decoration: none;
+}
+.location-left h1{
+    color: var(--Blue-Dark, #002248);
+font-size: 50px;
+font-weight: 500;
+line-height: 52px; 
+text-transform: capitalize;
+margin: 30px 0;
+}
+.location-left p{
+    color: var(--Paragraph-Color-H3, #697687);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; 
+width: 538px;
+margin: 30px 0;
+}
+.location-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.discover-left {
+    margin: 50px 0;
+    display: flex;
+
+
+}
+.vector{
+    position: absolute;
+    right: 70px;
+
+}
+.discover-left a{
+position: absolute;
+color: var(--Blue-Light, #00B3A0);
+
+font-size: 16px;
+font-weight: 500;
+line-height: 18px; 
+right: 90px;
+}
+.discover-left h1{
+    position: absolute;
+    color: var(--Blue-Dark, #002248);
+font-size: 42px;
+font-weight: 500;
+line-height: 52px; 
+text-transform: capitalize;
+width: 462px;
+right: 90px;
+    }
+    .discover-left p{
+        position: absolute;
+        color: var(--Paragraph-Color-H3, #697687);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; 
+right: 90px;
+        }
+        .discover-left button{
+            position: absolute;
+            border-radius: 10px;
+background: #3685FB;
+width: 170px;
+height: 60px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px; 
+right: 80px;                                                                                                                                                                                                  font-family: Airbnb Cereal App;
+
+            }
